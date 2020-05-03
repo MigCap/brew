@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401447565483",
+    "firebase_url": "https://mig-brew-crew.firebaseio.com",
+    "project_id": "mig-brew-crew",
+    "storage_bucket": "mig-brew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401447565483:android:be512a1f90fea1d4535fee",
+        "android_client_info": {
+          "package_name": "com.migcap.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401447565483-75r341upfh34j2bc2q81ua3kt6cpr739.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBTOf1INQld7v50S3zU-Jzs6vufhHe9yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401447565483-75r341upfh34j2bc2q81ua3kt6cpr739.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
