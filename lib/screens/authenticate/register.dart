@@ -1,5 +1,5 @@
 import 'package:brew_crew/services/auth.dart';
-import 'package:brew_crew/shared/constants.dart';
+import 'package:brew_crew/shared/styles.dart';
 import 'package:brew_crew/shared/loading.dart';
 import 'package:flutter/material.dart';
 
@@ -49,7 +49,7 @@ class _RegisterState extends State<Register> {
                       SizedBox(height: 20.0),
                       TextFormField(
                         decoration:
-                            textInputDecoration.copyWith(hintText: 'email'),
+                            textInputDecoration.copyWith(hintText: 'Email'),
                         validator: (val) =>
                             val.isEmpty ? 'Enter an email' : null,
                         onChanged: (val) {
@@ -59,7 +59,7 @@ class _RegisterState extends State<Register> {
                       SizedBox(height: 20.0),
                       TextFormField(
                         decoration:
-                            textInputDecoration.copyWith(hintText: 'password'),
+                            textInputDecoration.copyWith(hintText: 'Password'),
                         obscureText: true,
                         validator: (val) => val.length < 6
                             ? 'Enter a password 6+ chars long'
@@ -70,7 +70,7 @@ class _RegisterState extends State<Register> {
                       ),
                       SizedBox(height: 20.0),
                       RaisedButton(
-                          color: Colors.blue[400],
+                          color: Colors.brown[400],
                           child: Text(
                             'Register',
                             style: TextStyle(color: Colors.white),

@@ -1,5 +1,5 @@
 import 'package:brew_crew/services/auth.dart';
-import 'package:brew_crew/shared/constants.dart';
+import 'package:brew_crew/shared/styles.dart';
 import 'package:brew_crew/shared/loading.dart';
 import 'package:flutter/material.dart';
 
@@ -48,7 +48,7 @@ class _SignInState extends State<SignIn> {
                     SizedBox(height: 20.0),
                     TextFormField(
                       decoration:
-                          textInputDecoration.copyWith(hintText: 'email'),
+                          textInputDecoration.copyWith(hintText: 'Email'),
                       validator: (val) => val.isEmpty ? 'Enter an email' : null,
                       onChanged: (val) {
                         setState(() => email = val);
@@ -58,7 +58,7 @@ class _SignInState extends State<SignIn> {
                     TextFormField(
                       obscureText: true,
                       decoration:
-                          textInputDecoration.copyWith(hintText: 'password'),
+                          textInputDecoration.copyWith(hintText: 'Password'),
                       validator: (val) => val.length < 6
                           ? 'Enter a password 6+ chars long'
                           : null,
@@ -68,7 +68,7 @@ class _SignInState extends State<SignIn> {
                     ),
                     SizedBox(height: 20.0),
                     RaisedButton(
-                        color: Colors.blue[400],
+                        color: Colors.brown[400],
                         child: Text(
                           'Sign In',
                           style: TextStyle(color: Colors.white),
