@@ -22,3 +22,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// emulator @pixel2 -dns-server 8.8.8.8
